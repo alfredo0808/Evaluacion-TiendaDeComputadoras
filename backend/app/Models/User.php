@@ -9,7 +9,8 @@ use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
 
 class User extends Authenticatable
-{
+{    
+    // EVALUACION TERMINADA :)
     /** @use HasFactory<\Database\Factories\UserFactory> */
     use HasFactory, Notifiable,HasApiTokens,HasFactory;
 
